@@ -122,37 +122,6 @@ class OSRSTest_Bot(OSRSBot):
             self.log_msg(f"contour was NOT found")
         
                  
-    def Idle_Check(self): #can't use a pag check with background screen play, easier to do a img search. 
-         # -- Perform bot actions here --
-            # Code within this block will LOOP until the bot is stopped.
 
-            while True:
-                '''#
-                time_stamp = time.strftime("%H:%M:%S", time.localtime())
-                idle_checker = self.chatbox_idle_text(f"[{time_stamp}] You are now idle!")
-                print(idle_checker)
-                if idle_checker:
-                    self.log_msg(f"[{time_stamp}] You are now idle!")
-                    self.is_idle = True
-                else:
-                    self.log_msg(f"[{time_stamp}] You are still completing a task!")
-                    self.is_idle = False
-                time.sleep(1)
-                
-                
-         #'''
-                time_stamp = time.strftime("%H:%M:%S", time.localtime())
-                idle_checker = self.chatbox_idle_text()
-                print(idle_checker)
-                if idle_checker:
-                    self.log_msg(f"[{time_stamp}] You are now idle!")
-                    self.is_idle = True
-                else:
-                    self.log_msg(f"[{time_stamp}] You are still completing a task!")
-                    self.is_idle = False
-                time.sleep(1)
-            
-    #if idle is true you need to move the mouse to clear the screen. Then you can search for next marked object. 
-         
     
   
