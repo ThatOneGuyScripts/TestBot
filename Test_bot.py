@@ -7,9 +7,9 @@ from model.runelite_bot import BotStatus
 from utilities.api.morg_http_client import MorgHTTPSocket
 from utilities.api.status_socket import StatusSocket
 from utilities.geometry import RuneLiteObject
-import utilities.ScreenToClient  as stc
-import utilities.RIOmouse as Mouse
-import utilities.BackGroundScreenCap as bcp
+import utilities.ScreenToClient  as stc #comment out if not using remote input
+import utilities.RIOmouse as Mouse #comment out if not using rmeote input
+import utilities.BackGroundScreenCap as bcp #comment out if not using remote input
 import utilities.imagesearch as imsearch
 from PIL import Image
 import cv2
